@@ -12,11 +12,15 @@
   white-space: nowrap;
   position: relative;
   overflow: hidden;    /* Required to make ellipsis work */
+  width: 60%;
   text-overflow: clip;
-
   top: 0%;
   
   -webkit-transition: top 3s, height 3s;
   -moz-transition: top 3s, height 3s;
   transition: top 3s, height 3s;
+}
+
+.xkcdcontainer + div {
+  width: 50%;
 }
